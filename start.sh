@@ -15,8 +15,8 @@ if [ "$input" = "1" ] ; then
         sleep 10
        sudo /mnt/jmeter/apache-jmeter-5.3/bin/jmeter.sh -n -t /ITG_performance/scenario.jmx  -l /mnt/scenario.jtl
 else
-        echo " 2 =  git clone -b websockets https://github.com/justUniverse13/Performance"
-        sudo git clone git clone https://github.com/lesukk/ITG_performance
+        echo " 2 =  WebSocket test has been started"
+        sudo git clone https://github.com/lesukk/ITG_performance
         sleep 10
         sudo /mnt/jmeter/apache-jmeter-5.3/bin/jmeter.sh -n -t /ITG_performance/ITG_WebSockets.jmx  -l /mnt/scenario.jtl
         
