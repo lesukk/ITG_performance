@@ -75,7 +75,7 @@
           <stringProp name="path">/socket.io/?EIO=3&amp;transport=websocket</stringProp>
           <stringProp name="connectTimeout">30000</stringProp>
           <stringProp name="readTimeout">15000</stringProp>
-          <stringProp name="TestPlan.comments">api2sockets-dev.inthegame.io/socket.io/?EIO=3&transport=websocket</stringProp>
+          <stringProp name="TestPlan.comments">api2sockets-dev.inthegame.io/socket.io/?EIO=3&amp;transport=websocket</stringProp>
         </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
         <hashTree/>
         <eu.luminis.jmeter.wssampler.PingPongSampler guiclass="eu.luminis.jmeter.wssampler.PingPongSamplerGui" testclass="eu.luminis.jmeter.wssampler.PingPongSampler" testname="WebSocket Ping/Pong" enabled="true">
