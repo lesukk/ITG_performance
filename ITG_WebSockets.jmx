@@ -70,12 +70,12 @@
       <hashTree>
         <eu.luminis.jmeter.wssampler.OpenWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.OpenWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.OpenWebSocketSampler" testname="WebSocket Open Connection" enabled="true">
           <boolProp name="TLS">true</boolProp>
-          <stringProp name="server">api-dev.inthegame.io</stringProp>
+          <stringProp name="server">api2-dev.inthegame.io</stringProp>
           <stringProp name="port">6801</stringProp>
           <stringProp name="path">/socket.io/?EIO=3&amp;transport=websocket</stringProp>
           <stringProp name="connectTimeout">30000</stringProp>
           <stringProp name="readTimeout">15000</stringProp>
-          <stringProp name="TestPlan.comments">wss://api-dev.inthegame.io:6801/socket.io/?EIO=3&amp;transport=websocket</stringProp>
+          <stringProp name="TestPlan.comments">wss://api2sockets-dev.inthegame.io/socket.io/?EIO=3&transport=websocket</stringProp>
         </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
         <hashTree/>
         <eu.luminis.jmeter.wssampler.PingPongSampler guiclass="eu.luminis.jmeter.wssampler.PingPongSamplerGui" testclass="eu.luminis.jmeter.wssampler.PingPongSampler" testname="WebSocket Ping/Pong" enabled="true">
