@@ -15,18 +15,17 @@ if [ "$input" = "1" ] ; then
         sleep 10
        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/scenario.jmx  -l /mnt/scenario.jtl
 
-elif     echo " 3 =  LoginByToken test has been started"
-        sudo git clone https://github.com/lesukk/ITG_performance
-        sleep 10
-        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/login_by_token.jmx  -l /mnt/scenario.jtl
-
 else
         echo " 2 =  WebSocket test has been started"
         sudo git clone https://github.com/lesukk/ITG_performance
         sleep 10
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/ITG_WebSockets.jmx  -l /mnt/scenario.jtl
 
-        
+elif     echo " 3 =  LoginByToken test has been started"
+        sudo git clone https://github.com/lesukk/ITG_performance
+        sleep 10
+        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/login_by_token.jmx  -l /mnt/scenario.jtl
+
 fi
 #git clone -b websockets https://github.com/justUniverse13/Performance
 #sleep 15 
