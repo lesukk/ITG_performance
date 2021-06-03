@@ -7,7 +7,7 @@ rm -rf /ITG_performance
 wget https://bitbucket.org/pjtr/jmeter-websocket-samplers/downloads/JMeterWebSocketSamplers-1.2.8.jar
 mv JMeterWebSocketSamplers-1.2.8.jar /mnt/jmeter/apache-jmeter-5.4.1/lib
 
-echo " input  git clone ? >>>   1=  Polls    2=  Websockets"   3=  LoginByToken
+echo " input  git clone ? >>>   1=  Polls    2=  Websockets   3=  LoginByToken"
 read input
 if [ "$input" = "1" ] ; then
         echo " 1 =  Poll test has been started"
