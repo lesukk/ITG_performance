@@ -17,17 +17,17 @@ echo "  6)operation 6 = 0"
 echo "  7)operation 7 = 0"
 read n
 case $n in
- 1) echo "1 = Poll test has been started"
+ 1) echo "1 = Poll test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10 ;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/scenario.jmx  -l /mnt/scenario.jtl;;;
  
- 2) echo "2 = WebSocket test has been started"
+ 2) echo "2 = WebSocket test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10 ;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/ITG_WebSockets.jmx  -l /mnt/scenario.jtl;;;
         
- 3) echo "3 = LoginByToken test has been started"
+ 3) echo "3 = LoginByToken test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/login_by_token.jmx  -l /mnt/scenario.jtl;;;
