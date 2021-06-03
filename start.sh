@@ -15,7 +15,7 @@ if [ "$input" = "1" ] ; then
         sleep 10
        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/scenario.jmx  -l /mnt/scenario.jtl
 
-elif [ "$input" = "2" ] ; then
+elif [ "$input" = "3" ] ; then
         echo " 3 =  LoginByToken test has been started"
         sudo git clone https://github.com/lesukk/ITG_performance
         sleep 10
