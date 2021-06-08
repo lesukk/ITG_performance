@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -60,7 +60,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">300</stringProp>
+        <stringProp name="ThreadGroup.num_threads">400</stringProp>
         <stringProp name="ThreadGroup.ramp_time">55</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -78,12 +78,12 @@
           <stringProp name="TestPlan.comments">api2sockets-dev.inthegame.io/socket.io/?EIO=3&amp;transport=websocket</stringProp>
         </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
         <hashTree/>
-        <eu.luminis.jmeter.wssampler.PingPongSampler guiclass="eu.luminis.jmeter.wssampler.PingPongSamplerGui" testclass="eu.luminis.jmeter.wssampler.PingPongSampler" testname="WebSocket Ping/Pong" enabled="true">
+        <eu.luminis.jmeter.wssampler.PingPongSampler guiclass="eu.luminis.jmeter.wssampler.PingPongSamplerGui" testclass="eu.luminis.jmeter.wssampler.PingPongSampler" testname="WebSocket Ping/Pong" enabled="false">
           <stringProp name="type">Pong</stringProp>
           <stringProp name="readTimeout">35000</stringProp>
         </eu.luminis.jmeter.wssampler.PingPongSampler>
         <hashTree/>
-        <eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler" testname="WebSocket Single Read Sampler" enabled="true">
+        <eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler" testname="WebSocket Single Read Sampler" enabled="false">
           <boolProp name="TLS">false</boolProp>
           <stringProp name="server"></stringProp>
           <stringProp name="port">80</stringProp>
@@ -95,7 +95,7 @@
           <boolProp name="optional">false</boolProp>
         </eu.luminis.jmeter.wssampler.SingleReadWebSocketSampler>
         <hashTree/>
-        <eu.luminis.jmeter.wssampler.SingleWriteWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleWriteWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleWriteWebSocketSampler" testname="WebSocket Single Write Sampler" enabled="true">
+        <eu.luminis.jmeter.wssampler.SingleWriteWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.SingleWriteWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.SingleWriteWebSocketSampler" testname="WebSocket Single Write Sampler" enabled="false">
           <boolProp name="TLS">false</boolProp>
           <stringProp name="server"></stringProp>
           <stringProp name="port">80</stringProp>
@@ -108,7 +108,7 @@
           <stringProp name="dataFile"></stringProp>
         </eu.luminis.jmeter.wssampler.SingleWriteWebSocketSampler>
         <hashTree/>
-        <eu.luminis.jmeter.wssampler.RequestResponseWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.RequestResponseWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.RequestResponseWebSocketSampler" testname="WebSocket request-response Sampler" enabled="true">
+        <eu.luminis.jmeter.wssampler.RequestResponseWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.RequestResponseWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.RequestResponseWebSocketSampler" testname="WebSocket request-response Sampler" enabled="false">
           <boolProp name="createNewConnection">false</boolProp>
           <boolProp name="TLS">false</boolProp>
           <stringProp name="server"></stringProp>
@@ -173,3 +173,4 @@
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
+
