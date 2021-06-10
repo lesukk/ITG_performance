@@ -70,7 +70,7 @@
       <hashTree>
         <eu.luminis.jmeter.wssampler.OpenWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.OpenWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.OpenWebSocketSampler" testname="WebSocket Open Connection" enabled="true">
           <boolProp name="TLS">true</boolProp>
-          <stringProp name="server">api2sockets-dev.inthegame.io</stringProp>
+          <stringProp name="server">api2sockets-prod.inthegame.io</stringProp>
           <stringProp name="port">443</stringProp>
           <stringProp name="path">/socket.io/?EIO=3&amp;transport=websocket</stringProp>
           <stringProp name="connectTimeout">30000</stringProp>
