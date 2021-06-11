@@ -29,7 +29,7 @@
           </elementProp>
           <elementProp name="BASE_URL_2" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL_2</stringProp>
-            <stringProp name="Argument.value">api2-dev.inthegame.io</stringProp>
+            <stringProp name="Argument.value">api2-prod.inthegame.io</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="BASE_URL_3" elementType="Argument">
@@ -39,12 +39,12 @@
           </elementProp>
           <elementProp name="threads" elementType="Argument">
             <stringProp name="Argument.name">threads</stringProp>
-            <stringProp name="Argument.value">800</stringProp>
+            <stringProp name="Argument.value">500</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ramp" elementType="Argument">
             <stringProp name="Argument.name">ramp</stringProp>
-            <stringProp name="Argument.value">110</stringProp>
+            <stringProp name="Argument.value">60</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="answer_option_1" elementType="Argument">
@@ -124,7 +124,7 @@
       <hashTree>
         <eu.luminis.jmeter.wssampler.OpenWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.OpenWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.OpenWebSocketSampler" testname="WebSocket Open Connection" enabled="true">
           <boolProp name="TLS">true</boolProp>
-          <stringProp name="server">api2sockets-dev.inthegame.io</stringProp>
+          <stringProp name="server">api2sockets-prod.inthegame.io</stringProp>
           <stringProp name="port">443</stringProp>
           <stringProp name="path">/socket.io/?EIO=3&amp;transport=websocket</stringProp>
           <stringProp name="connectTimeout">20000</stringProp>
@@ -144,7 +144,7 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api2-dev.inthegame.io</stringProp>
+          <stringProp name="HTTPSampler.domain">api2-prod.inthegame.io</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -194,11 +194,11 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">api2-dev.inthegame.io</stringProp>
+          <stringProp name="HTTPSampler.domain">api2-prod.inthegame.io</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60bf2198c1a9b31dcc0d50f2</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60c3418669603703903b52c2</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -512,4 +512,3 @@
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
-
