@@ -13,7 +13,7 @@ echo "  2)operation 2 =  WebSockets"
 echo "  3)operation 3 =  LoginByToken"
 echo "  4)operation 4 =  Trivia"
 echo "  5)operation 5 =  Rating"
-echo "  6)operation 6 = 0"
+echo "  6)operation 6 =  GetInfo"
 echo "  7)operation 7 = 0"
 read n
 case $n in
@@ -42,7 +42,11 @@ case $n in
         sleep 10 ;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Rating_answer.jmx  -l /mnt/scenario.jtl ;;
         
- 6) echo "You chose Option 6";;
+ 6) echo "6 = GetInfo test has been started";
+        sudo git clone https://github.com/lesukk/ITG_performance;
+        sleep 10 ;
+        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Rating_answer.jmx  -l /mnt/scenario.jtl ;;
+        
  7) echo "You chose Option 7";;
  *) echo "invalid option";
 esac
