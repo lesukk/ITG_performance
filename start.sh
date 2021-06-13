@@ -45,7 +45,7 @@ case $n in
  6) echo "6 = GetInfo test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10 ;
-        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Rating_answer.jmx  -l /mnt/scenario.jtl ;;
+        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/GetInfo.jmx  -l /mnt/scenario.jtl ;;
         
  7) echo "You chose Option 7";;
  *) echo "invalid option";
