@@ -214,7 +214,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -225,7 +225,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca4886fdab6845f20677d2</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb3747b574e12eea20623b</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -241,7 +241,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -252,7 +252,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca5a236fb14c738355b260</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb37a768c09e43e164b09e</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -268,7 +268,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;No&quot;}}</stringProp>
+                <stringProp name="Argument.value"> {&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -279,7 +279,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca5a6358257c4aea160e6c</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb37c9f5e48f00d86e7f2e</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -295,7 +295,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -306,7 +306,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca5ac17afa5d4e831ea772</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb37f8a6765c3090327881</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -322,7 +322,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;No&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -333,7 +333,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca5aea87e0d74f1025ee49</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb381b4428b56e182eeaac</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -349,7 +349,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -360,7 +360,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca5b8feb5635643d487f1f</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb38567f77612d4574afb5</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -376,7 +376,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -387,7 +387,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca6bbd58295127b336b16f</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb38ed13a1584db1671383</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -403,7 +403,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -414,7 +414,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca6bed10936806b5282089</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb390db5ef1842386a11be</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -430,7 +430,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;363f726e358f7b4641b7149c39257bac&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;No&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;pagename&quot;,&quot;userToken&quot;:&quot;74d72e80d43cbb1623ceaaf8f991c517&quot;,&quot;broadcasterName&quot;:&quot;testings&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -441,7 +441,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60ca76aecd398a17082eb7e2</stringProp>
+          <stringProp name="HTTPSampler.path">/userApi/poll/answer_new/60cb392f5fec75182f1025d6</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
