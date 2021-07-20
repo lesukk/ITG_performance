@@ -15,6 +15,7 @@ echo "  4)operation 4 =  Trivia"
 echo "  5)operation 5 =  Rating"
 echo "  6)operation 6 =  GetInfo"
 echo "  7)operation 7 =  DifferentPolls"
+echo "  8)operation 7 =  JoinRoom"
 read n
 case $n in
  1) echo "1 = Poll test has been started";
@@ -51,6 +52,11 @@ case $n in
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10 ;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Different_polls.jmx  -l /mnt/scenario.jtl ;;
+        
+ 8) echo "8 = Join Room test has been started";
+        sudo git clone https://github.com/lesukk/ITG_performance;
+        sleep 10 ;
+        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/JoinRoom.jmx  -l /mnt/scenario.jtl ;;
         
  *) echo "invalid option";
 esac
