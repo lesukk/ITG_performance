@@ -15,7 +15,7 @@ echo "  4)operation 4 =  Trivia"
 echo "  5)operation 5 =  Rating"
 echo "  6)operation 6 =  GetInfo"
 echo "  7)operation 7 =  DifferentPolls"
-echo "  8)operation 7 =  JoinRoom"
+echo "  8)operation 8 =  JoinRoom"
 read n
 case $n in
  1) echo "1 = Poll test has been started";
