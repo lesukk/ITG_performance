@@ -60,8 +60,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">9000</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">300</stringProp>
+        <stringProp name="ThreadGroup.num_threads">5000</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">240</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -70,12 +70,12 @@
       <hashTree>
         <eu.luminis.jmeter.wssampler.OpenWebSocketSampler guiclass="eu.luminis.jmeter.wssampler.OpenWebSocketSamplerGui" testclass="eu.luminis.jmeter.wssampler.OpenWebSocketSampler" testname="WebSocket Open Connection" enabled="true">
           <boolProp name="TLS">true</boolProp>
-          <stringProp name="server">api2sockets-prod.inthegame.io</stringProp>
+          <stringProp name="server">api3sockets-prod.inthegame.io</stringProp>
           <stringProp name="port">443</stringProp>
           <stringProp name="path">/socket.io/?EIO=3&amp;transport=websocket</stringProp>
           <stringProp name="connectTimeout">30000</stringProp>
           <stringProp name="readTimeout">15000</stringProp>
-          <stringProp name="TestPlan.comments">api2sockets-dev.inthegame.io/socket.io/?EIO=3&amp;transport=websocket</stringProp>
+          <stringProp name="TestPlan.comments">api3sockets-dev.inthegame.io/socket.io/?EIO=3&amp;transport=websocket</stringProp>
         </eu.luminis.jmeter.wssampler.OpenWebSocketSampler>
         <hashTree/>
         <eu.luminis.jmeter.wssampler.PingPongSampler guiclass="eu.luminis.jmeter.wssampler.PingPongSamplerGui" testclass="eu.luminis.jmeter.wssampler.PingPongSampler" testname="WebSocket Ping/Pong" enabled="false">
