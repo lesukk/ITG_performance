@@ -21,7 +21,7 @@ case $n in
  1) echo "1 = Poll test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10 ;
-        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Poll_answer.jmx  -l /mnt/scenario.jtl ;;
+        sudo /mnt/jmeter/apache-jmeter-5.4.3/bin/jmeter.sh -n -t /ITG_performance/Poll_answer.jmx  -l /mnt/scenario.jtl ;;
  
  2) echo "2 = WebSocket test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
