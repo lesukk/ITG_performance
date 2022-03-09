@@ -31,7 +31,7 @@ case $n in
  3) echo "3 = PollAnswer test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10;
-        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Poll_answer.jmx  -l /mnt/scenario.jtl ;;
+        sudo /mnt/jmeter/apache-jmeter-5.4.3/bin/jmeter.sh -n -t /ITG_performance/Poll_answer.jmx  -l /mnt/scenario.jtl ;;
  
  4) echo "4 = Trivia test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
