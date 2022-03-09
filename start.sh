@@ -5,7 +5,7 @@ sudo chmod 744  /home/start.sh
 cd /
 rm -rf /ITG_performance
 wget https://bitbucket.org/pjtr/jmeter-websocket-samplers/downloads/JMeterWebSocketSamplers-1.2.8.jar
-mv JMeterWebSocketSamplers-1.2.8.jar /mnt/jmeter/apache-jmeter-5.4.1/lib
+mv JMeterWebSocketSamplers-1.2.8.jar /mnt/jmeter/apache-jmeter-5.4.3/lib
 
 echo " input  git clone ? >>>   1=  Polls    2=  Websockets   3=  LoginByToken"
 echo "  1)operation 1 =  Polls"
