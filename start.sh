@@ -10,7 +10,7 @@ mv JMeterWebSocketSamplers-1.2.8.jar /mnt/jmeter/apache-jmeter-5.4.3/lib
 echo " input  git clone ? >>>   1=  Polls    2=  Websockets   3=  LoginByToken"
 echo "  1)operation 1 =  Polls"
 echo "  2)operation 2 =  WebSockets"
-echo "  3)operation 3 =  LoginByToken"
+echo "  3)operation 3 =  PollAnswer"
 echo "  4)operation 4 =  Trivia"
 echo "  5)operation 5 =  Rating"
 echo "  6)operation 6 =  GetInfo"
@@ -28,10 +28,10 @@ case $n in
         sleep 10 ;
         sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/ITG_WebSockets.jmx  -l /mnt/scenario.jtl ;;
         
- 3) echo "3 = LoginByToken test has been started";
+ 3) echo "3 = PollAnswer test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
         sleep 10;
-        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/login_by_token.jmx  -l /mnt/scenario.jtl ;;
+        sudo /mnt/jmeter/apache-jmeter-5.4.1/bin/jmeter.sh -n -t /ITG_performance/Poll_answer.jmx  -l /mnt/scenario.jtl ;;
  
  4) echo "4 = Trivia test has been started";
         sudo git clone https://github.com/lesukk/ITG_performance;
