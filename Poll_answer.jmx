@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="threads" elementType="Argument">
             <stringProp name="Argument.name">threads</stringProp>
-            <stringProp name="Argument.value">500</stringProp>
+            <stringProp name="Argument.value">1000</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ramp" elementType="Argument">
@@ -136,7 +136,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;broadcasterName&quot;:&quot;itaitest123&quot;,&quot;channelId&quot;:&quot;JmeterStress&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;broadcasterName&quot;:&quot;itaitest123&quot;,&quot;channelId&quot;:&quot;jmeterstress&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -170,7 +170,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;JmeterStress&quot;,&quot;userToken&quot;:&quot;${token}&quot;,&quot;broadcasterName&quot;:&quot;itaitest123&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;jmeterstress&quot;,&quot;userToken&quot;:&quot;${token}&quot;,&quot;broadcasterName&quot;:&quot;itaitest123&quot;,&quot;answer&quot;:&quot;Yes&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -181,7 +181,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/poll/answer_new/622f2908f0cd351684201e15</stringProp>
+          <stringProp name="HTTPSampler.path">/poll/answer_new/6255518bc44fda1d2e148ad2</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
