@@ -170,7 +170,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="request" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;testpage&quot;,&quot;userToken&quot;:&quot;${token}&quot;,&quot;broadcasterName&quot;:&quot;testing&quot;,&quot;answer&quot;:&quot;OK&quot;}}</stringProp>
+                <stringProp name="Argument.value">{&quot;data&quot;:{&quot;channelId&quot;:&quot;testpage&quot;,&quot;userToken&quot;:&quot;${token}&quot;,&quot;broadcasterName&quot;:&quot;testing&quot;,&quot;answer&quot;:&quot;1000&quot;}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">request</stringProp>
@@ -181,7 +181,7 @@
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/poll/answer_new/6270e92b8e2690331e79ba52</stringProp>
+          <stringProp name="HTTPSampler.path">/poll/answer_new/629df3ad35e219c5b90c4c17</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
